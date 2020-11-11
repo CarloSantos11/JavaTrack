@@ -1,7 +1,7 @@
 package com.devnom.basics;
 
 
-public class B_Math {
+public class B_MathOperations {
     public static void main(String[] args) {
         // This program illustrates that you can perform Math Operations
         System.out.println(4 + 5);

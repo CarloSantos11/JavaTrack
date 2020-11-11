@@ -1,6 +1,6 @@
 package com.devnom.basics;
 
-public class F_ConditionStatements {
+public class Z_ConditionStatements {
     public static void main(String[] args) {
 
     }
