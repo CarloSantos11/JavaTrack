@@ -24,7 +24,7 @@ public class F_StockChangeCalculator {
         double numberTwo = input.nextDouble();
 
                                  //This formula finds percent of change
-        double percentOfChange = (numberTwo - numberOne) * numberOne / 100;
+        double percentOfChange = (numberTwo - numberOne) * (numberOne / 100);
         System.out.printf("%.2f",percentOfChange);
     }
 }
