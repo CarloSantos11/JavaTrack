@@ -66,15 +66,42 @@ public class N_Loops {
 //        }
 // *********************************************************
         // Making a triangle with a nested for loop
-        for (int i = 1; i <= 15; i += 2){
-            for (int k = 0; k < (7 - i / 2); k++) {
-                System.out.print( " ");
-            }
-            for (int j = 1; j <= i; j++) {
-                System.out.print("*");
-            }
-            System.out.println();
+//        for (int i = 1; i <= 15; i += 2){
+//            for (int k = 0; k < (7 - i / 2); k++) {
+//                System.out.print( " ");
+//            }
+//            for (int j = 1; j <= i; j++) {
+//                System.out.print("*");
+//            }
+//            System.out.println();
+//        }
+// *********************************************************
+
+//        int [] arr = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
+//        for (int i = 0; i < 10; i++) {
+//            System.out.println(arr[i]);
+//        }
+//        // for-each Loops
+//        // These are an advanced version of for loops
+//        // The above is a simple for Loop
+//
+//      // The code below is a shorter for each loop:
+//      // for (type item: array_or_collection) {
+//            // Code to execute for each item in the array or collection
+//      // }
+//        int [] arrTwo = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
+//        for (int item : arrTwo) {
+//            System.out.println(item);
+//        }
+
+//      // The Code below Squares each element in the array.
+        int [] anArrayToSquare = { 3, 1, 3, 9, 5, 81, 7, 8, 9, 10 };
+        for (int element : anArrayToSquare) {
+            int square = element * element;
+            System.out.println(square);
         }
+// *********************************************************
+
 // *********************************************************
     }
 }

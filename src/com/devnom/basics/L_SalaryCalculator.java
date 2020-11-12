@@ -1,9 +1,11 @@
 package com.devnom.basics;
 
-// If a person works for less than 8 hours, formula: number of hours * 10
-// If the person works for more than 8 hours but less than 12 hours, formula: 20% for
-//                                                  additonal hours + his/her days pay
-// More than 12 hours: additonal days salary is credited.
+// If a person works for less than 8 hours
+//      FORMULA: number of hours * 10
+// If the person works for more than 8 hours but less than 12 hours
+//      FORMULA: 20% for additonal hours + days pay
+// If the person works for more than 12 hours
+//      FORMULA: Additional days salary is credited.
 
 public class L_SalaryCalculator {
     public static void main(String[] args) {
