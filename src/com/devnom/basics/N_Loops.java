@@ -77,8 +77,8 @@ public class N_Loops {
 //        }
 // *********************************************************
 
-//        int [] arr = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
-//        for (int i = 0; i < 10; i++) {
+//        String [] arr = { "Lester", "Carmella", "Doris", "Christina", "Marisha", "Jobe" };
+//        for (int i = 0; i < arr.length; i++) {
 //            System.out.println(arr[i]);
 //        }
 //        // for-each Loops
@@ -95,12 +95,52 @@ public class N_Loops {
 //        }
 
 //      // The Code below Squares each element in the array.
-        int [] anArrayToSquare = { 3, 1, 3, 9, 5, 81, 7, 8, 9, 10 };
-        for (int element : anArrayToSquare) {
-            int square = element * element;
-            System.out.println(square);
-        }
+//        int [] anArrayToSquare = { 3, 1, 3, 9, 5, 81, 7, 8, 9, 10 };
+//        for (int element : anArrayToSquare) {
+//            int square = element * element;
+//            System.out.println(square);
+//        }
 // *********************************************************
+
+        // Exercise 10: Fibonacci Series
+//        int i = 1, x = 0, y = 1, sum = 0;
+//        while(i <= 10) {
+//            System.out.print( x + " ");
+//            sum = x + y;
+//            x = y;
+//            y = sum;
+//            i++;
+//        }
+// *********************************************************
+        // Activity 9
+        // Pseudo Code
+        // Create a numberOfBoxesShipped
+        // Create a while loop that continues as we have at least 20 peaches.
+        // In the loop remove 20 peaches from numberOfPeaches and increment numberOfBoxesShipped by 1
+        Scanner input = new Scanner(System.in);
+
+        System.out.print("Enter the number of peaches picked: ");
+        int numberOfPeaches = input.nextInt();
+        input.nextLine();
+
+        int numberOfBoxesShipped = 0;
+        while (numberOfPeaches > 20) {
+            numberOfPeaches -= 20; // numberOfPeaches = numberOfPeaches - 20;
+            numberOfBoxesShipped++;
+            System.out.println(numberOfBoxesShipped + " boxes shipped, " + numberOfPeaches + " remaining");
+
+            System.out.println("Do you have anymore peaches. Enter 'Y' or 'N'");
+            String answer = input.nextLine();
+
+            if (answer.equals("Y")) {
+                System.out.println("How many peaches are you adding");
+                numberOfPeaches += input.nextInt();
+                input.nextLine();
+            } else
+                continue;
+        }
+
+
 
 // *********************************************************
     }

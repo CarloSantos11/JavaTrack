@@ -2,8 +2,8 @@ package com.devnom.basics;
 
 public class K_Switch {
     public static void main(String[] args) {
-        int discount;
-        int age = 10;
+        int discount = 0;
+        int age = 11;
 
         switch (age) {
             case 10:
