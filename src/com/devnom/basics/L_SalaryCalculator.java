@@ -1,6 +1,6 @@
 package com.devnom.basics;
 
-// If a person works for less than 8 hours
+// If a person works for less than or equal to 8 hours
 //      FORMULA: number of hours * 10
 // If the person works for more than 8 hours but less than 12 hours
 //      FORMULA: 20% for additonal hours + days pay
@@ -15,7 +15,7 @@ public class L_SalaryCalculator {
 
         if (workingHours <= 8){
             salary = workingHours * 10;
-        } else if (workingHours > 8 && workingHours < 12){
+        } else if (workingHours > 8 || workingHours < 12){
             extraHours = workingHours - 8;
             salary = extraHours * 12 + 80;
         } else if (workingHours > 12) {

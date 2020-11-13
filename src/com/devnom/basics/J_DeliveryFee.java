@@ -5,6 +5,8 @@ public class J_DeliveryFee {
         int distance = 25;
         int fee = 0;
 
+        // Based on a delivery service
+        // Given a certain distance
         if (distance == 0){
             fee = 0;
         } else if (distance > 0 && distance < 5) {
@@ -19,11 +21,6 @@ public class J_DeliveryFee {
             fee = 20;
         }
 
-//        switch (distance) {
-//            case 0:
-//            case 1:
-//
-//        }
 
         System.out.println("Delivery Fee: " + fee);
     }

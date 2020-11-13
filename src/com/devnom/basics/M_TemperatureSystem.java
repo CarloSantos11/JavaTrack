@@ -3,7 +3,7 @@ package com.devnom.basics;
 public class M_TemperatureSystem {
     public static void main(String[] args) {
         String temp, weatherWarning;
-        temp = "89";
+        temp = "High";
 
         switch (temp) {
             case "High":
