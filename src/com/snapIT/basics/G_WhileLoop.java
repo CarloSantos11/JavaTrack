@@ -1,4 +1,4 @@
-package com.devnom.basics;
+package com.snapIT.basics;
 
 public class G_WhileLoop {
     // infinite loop example

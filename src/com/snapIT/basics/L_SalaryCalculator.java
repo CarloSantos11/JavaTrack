@@ -1,4 +1,4 @@
-package com.devnom.basics;
+package com.snapIT.basics;
 
 // If a person works for less than or equal to 8 hours
 //      FORMULA: number of hours * 10

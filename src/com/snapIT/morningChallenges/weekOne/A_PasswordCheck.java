@@ -1,11 +1,11 @@
-package com.devnom.morningChallenges;
+package com.snapIT.morningChallenges.weekOne;
 
 import java.util.Scanner;
 
 public class A_PasswordCheck {
     public static void main(String[] args) {
 //        Ch 1
-//         - Create a Java Application With a Class Called PassWordCheck
+//        - Create a Java Application With a Class Called PassWordCheck
 //        - This program should prompt the user for a password.
 //        - We will create a password String variable with a value of "Secret Password"
 //        - If the user guesses the password correctly congratulate the user for guessing the password.

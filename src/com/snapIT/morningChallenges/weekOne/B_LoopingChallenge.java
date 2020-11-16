@@ -1,4 +1,4 @@
-package com.devnom.morningChallenges;
+package com.snapIT.morningChallenges.weekOne;
 
 public class B_LoopingChallenge {
 //    Ch 2

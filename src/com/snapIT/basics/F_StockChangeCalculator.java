@@ -1,4 +1,4 @@
-package com.devnom.basics;
+package com.snapIT.basics;
 
 // Users expect to see the daily percentage of increase or decrease of financial
 // instruments such as stocks and foreign currency. We will ask the user for the stock

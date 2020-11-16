@@ -1,6 +1,5 @@
-package com.devnom.basics;
+package com.snapIT.basics;
 
-import java.io.IOException;
 import java.util.Scanner;
 
 public class D_InputAndOperations {

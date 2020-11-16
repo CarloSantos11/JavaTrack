@@ -1,4 +1,4 @@
-package com.devnom.basics;
+package com.snapIT.basics;
 
 public class Z_ConditionStatements {
     public static void main(String[] args) {
