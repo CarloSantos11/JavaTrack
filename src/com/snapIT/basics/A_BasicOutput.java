@@ -1,5 +1,5 @@
 // This is the basic skeleton of a java command line application
-package com.devnom.basics;
+package com.snapIT.basics;
 
 // Every Program Needs a Class
 public class A_BasicOutput {

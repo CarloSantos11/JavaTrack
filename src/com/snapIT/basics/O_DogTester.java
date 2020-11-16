@@ -1,4 +1,4 @@
-package com.devnom.basics;
+package com.snapIT.basics;
 
 public class O_DogTester {
     public static void main(String[] args) {

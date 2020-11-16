@@ -1,4 +1,4 @@
-package com.devnom.basics;
+package com.snapIT.basics;
 
 import java.io.IOException;
 

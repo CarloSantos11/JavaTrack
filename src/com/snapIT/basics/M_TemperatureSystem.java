@@ -1,4 +1,4 @@
-package com.devnom.basics;
+package com.snapIT.basics;
 
 public class M_TemperatureSystem {
     public static void main(String[] args) {

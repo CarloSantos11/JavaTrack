@@ -1,4 +1,4 @@
-package com.devnom.basics;
+package com.snapIT.basics;
 // Intro to data types
 // Primitive Types vs. Reference Types
 // ----------------------------------
