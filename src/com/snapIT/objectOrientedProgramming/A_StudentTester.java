@@ -2,13 +2,19 @@ package com.snapIT.objectOrientedProgramming;
 
 public class A_StudentTester {
     public static void main(String[] args) {
-     A_AdminDashboard.menu();
+        A_AdminDashboard.menu();
+        A_Student lester = new A_Student("Lester");
+        A_CompSciStudent christina = new A_CompSciStudent("Cristina");
+
+//     lester.readBook();
+//     christina.readBook();
+//    }
     }
 }
 
 
 
-//
+
 //    // Here we are using the A_Student constructor
 //    // We are passing in the first name as an argument
 //    // This creates a new A_Student object inside the variable khalil
@@ -16,7 +22,7 @@ public class A_StudentTester {
 //    // all other fields/instance variables will be null
 //    A_Student khalil = new A_Student("Khalil");
 //        khalil.setLastName("Gibran");
-//
+
 //
 //                khalil.addCourse("Project Management");
 //                khalil.addCourse("Wordpress");
