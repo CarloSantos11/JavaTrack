@@ -1,4 +1,4 @@
-package com.snapIT.basics;
+package com.snapIT.basics.d_controlFlow;
 
 public class I_BookingSeats {
     public static void main(String[] args) {

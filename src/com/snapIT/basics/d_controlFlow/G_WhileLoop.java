@@ -1,4 +1,4 @@
-package com.snapIT.basics;
+package com.snapIT.basics.d_controlFlow;
 
 public class G_WhileLoop {
     // infinite loop example

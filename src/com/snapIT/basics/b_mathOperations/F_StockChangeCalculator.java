@@ -1,4 +1,4 @@
-package com.snapIT.basics;
+package com.snapIT.basics.b_mathOperations;
 
 // Users expect to see the daily percentage of increase or decrease of financial
 // instruments such as stocks and foreign currency. We will ask the user for the stock
@@ -15,6 +15,7 @@ import java.util.Scanner;
 
 // Description:
 // This program finds the percent of change between
+// day one's stock value vs. day two's stock value
 public class F_StockChangeCalculator {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);

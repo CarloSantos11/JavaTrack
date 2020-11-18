@@ -1,4 +1,4 @@
-package com.snapIT.basics;
+package com.snapIT.basics.b_mathOperations;
 
 import java.util.Scanner;
 

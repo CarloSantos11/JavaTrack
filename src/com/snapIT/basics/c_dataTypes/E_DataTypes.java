@@ -1,4 +1,4 @@
-package com.snapIT.basics;
+package com.snapIT.basics.c_dataTypes;
 // Intro to data types
 // Primitive Types vs. Reference Types
 // ----------------------------------

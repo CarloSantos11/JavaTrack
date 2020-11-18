@@ -1,4 +1,4 @@
-package com.snapIT.basics;
+package com.snapIT.basics.a_inputOutput;
 
 import java.io.IOException;
 

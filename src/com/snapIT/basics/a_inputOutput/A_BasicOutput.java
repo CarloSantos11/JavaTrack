@@ -1,8 +1,8 @@
 // This is the basic skeleton of a java command line application
-package com.snapIT.basics;
-import com.snapIT.objectOrientedProgramming.D_Athlete;
+package com.snapIT.basics.a_inputOutput;
 
 // Every Program Needs a Class
+// Code must be written in a Class
 public class A_BasicOutput {
     // Every Program Needs a Main
     public static void main(String[] args) {
