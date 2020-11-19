@@ -6,7 +6,7 @@ public class C_PassByValue {
 
         go(x); // Method Call To Go
                // x is passed by value into the Go method
-        System.out.println("THis is x " + x);
+        System.out.println("This is x " + x);
     }
 
                   // In this example x which has a value of 7

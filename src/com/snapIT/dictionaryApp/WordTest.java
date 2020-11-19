@@ -22,29 +22,42 @@ public class WordTest {
         Scanner input = new Scanner(System.in);
 
         boolean promptUser = true;
+        boolean root = false;
+        Word[] myDictionary = new Word [1];
 
         while(promptUser) {
+
+            int wordIndex = 0;
+
             System.out.println("What's the word? or type ':p' to quit");
             String word = input.nextLine();
-            System.out.println("Have a definition?");
-            String definition = input.nextLine();
-            System.out.println("Language?");
-            String language = input.nextLine();
-            System.out.println("Is this the root form of the word? true or false.");
-            String root = input.nextLine();
-
-            if(root.equals("true")) {
-                boolean rootParam = true;
-                System.out.println("Hammanayaaaah");
-            }
 
             if( word.equals(":p")) {
-                System.out.println("Hiyoooooo");
                 break;
             }
 
+            System.out.println("Have a definition?");
+            String definition = input.nextLine();
+
+            System.out.println("Language?");
+            String language = input.nextLine();
+
+            System.out.println("Is this the root form of the word? true or false.");
+            String rootStringFormat = input.nextLine();
+            root = Boolean.parseBoolean(rootStringFormat);
+
+
+
+
+            Word wordObject1 = new Word(word, definition, language, root);
+            myDictionary[wordIndex] = wordObject1;
+            wordIndex++;
+            root = false;
         }
 
+        for (Word word : myDictionary) {
+            word.printInfo();
+        }
     }
 }
 
