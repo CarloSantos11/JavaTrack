@@ -1,6 +1,6 @@
 package com.snapIT.b_methods.dotComGame.inClassVersion;
 
-public class A_SimpleDotCom {
+public class SimpleDotCom {
     int[] locationCells;
     int numOfHits = 0;
 

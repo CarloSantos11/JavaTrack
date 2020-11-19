@@ -3,9 +3,9 @@ package com.snapIT.b_methods.dotComGame.inClassVersion;
 import java.util.Scanner;
 
 // recreate test code version
-public class A_SimpleDotComTester {
+public class SimpleDotComTester {
     public static void main(String[] args) {
-        A_SimpleDotCom dot = new A_SimpleDotCom();
+        SimpleDotCom dot = new SimpleDotCom();
 
         int userGuess;
         String result = "";
