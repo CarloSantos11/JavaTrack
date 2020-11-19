@@ -24,6 +24,13 @@ public class Word {
         this.root = root;
     }
 
+    public Word(String word, String definition, String language) {
+        this.word = word;
+        this.definition = definition;
+        this.language = language;
+        this.root = false;
+    }
+
     public String getWord() {
         return word;
     }
@@ -62,7 +69,7 @@ public class Word {
                 "Word: " + this.word + "\n" +
                 "Definiton: " + this.definition + "\n" +
                 "Language: " + this.language + "\n" +
-                "Root: " + this.root + "\n"
+                "Root: " + this.root + "\n\n"
         );
 
     }

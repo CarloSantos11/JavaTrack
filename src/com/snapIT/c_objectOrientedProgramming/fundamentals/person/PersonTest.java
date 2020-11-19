@@ -3,9 +3,9 @@ package com.snapIT.c_objectOrientedProgramming.fundamentals.person;
 public class PersonTest {
     public static void main(String[] args) {
 
-        Person me = new Person(30);
-        Person myNeighbor = new Person(34 );
-        Person lecturer = new Person(99);
+        Person me = new Person(30, 20, 15);
+        Person myNeighbor = new Person(34, 10,9 );
+        Person lecturer = new Person(99, 1, 0);
         Person me2 = new Person();
 
 
@@ -25,6 +25,8 @@ public class PersonTest {
         me2.walk(20);
         me2.walk(5);
         me2.sleep();
+
+        System.out.println(me.age);
     }
 
 }
