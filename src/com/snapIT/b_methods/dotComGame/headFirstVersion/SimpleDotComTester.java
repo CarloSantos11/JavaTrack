@@ -1,21 +1,21 @@
 package com.snapIT.b_methods.dotComGame.headFirstVersion;
 
-import com.snapIT.b_methods.dotComGame.inClassVersion.SimpleDotCom;
-
 public class SimpleDotComTester {
     public static void main(String[] args) {
         int numOfGuesses = 0;
 
         GameHelper helper = new GameHelper();
 
-        com.snapIT.b_methods.dotComGame.headFirstVersion.SimpleDotCom theDotCom = new com.snapIT.b_methods.dotComGame.headFirstVersion.SimpleDotCom();
+        SimpleDotCom theDotCom = new SimpleDotCom();
 
         int randomNum = (int) (Math.random() * 5);
 
         int [] locations = { randomNum, randomNum + 1, randomNum + 2};
 
         theDotCom.setLocationCells(locations);
+        Math.random();
 
+        System.out.println(helper.getUserInput("Enter a number"));
         boolean isAlive = true;
 
         while (isAlive == true) {
