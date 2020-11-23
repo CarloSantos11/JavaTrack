@@ -7,12 +7,12 @@ package com.snapIT.consoleGame;
 // Level
 // Health
 public class Character {
-    String name;
-    String height;
-    String[] weapons = {"Axe", "Assault Rifle", "Hand-hand"};
-    int level;
-    int health;
-    int magic;
+    private String name;
+    private String height;
+    private String[] weapons = {"Axe", "Assault Rifle", "Hand-hand"};
+    private int level;
+    private int health;
+    private int magic;
 
     public Character(String name, String height, int level, int health, int magic ) {
         this.name = name;
@@ -20,6 +20,15 @@ public class Character {
         this.level = level;
         this.health = health;
         this.magic = magic;
+
+    }
+
+    public Character() {
+        this.name = "name";
+        this.height = "height";
+        this.level = 1;
+        this.health = 100;
+        this.magic = 10;
 
     }
     public String getName() {
