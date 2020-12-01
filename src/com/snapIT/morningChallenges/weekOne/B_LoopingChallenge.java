@@ -19,7 +19,7 @@ public class B_LoopingChallenge {
             counter = counter + 1;
         } while (counter <= 100);
 
-        for (int counter2 = 0; counter2 <= 100; counter++) {
+        for (int counter2 = 0; counter2 <= 100; counter2++) {
             System.out.println(counter2);
         }
 

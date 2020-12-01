@@ -6,7 +6,7 @@ public class SimpleDotComTester {
 
         GameHelper helper = new GameHelper();
 
-        SimpleDotCom theDotCom = new SimpleDotCom();
+        com.snapIT.b_methods.dotComGame.headFirstVersion.SimpleDotCom theDotCom = new com.snapIT.b_methods.dotComGame.headFirstVersion.SimpleDotCom();
 
         int randomNum = (int) (Math.random() * 5);
 
