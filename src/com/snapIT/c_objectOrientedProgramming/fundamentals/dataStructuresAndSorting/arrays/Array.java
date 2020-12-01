@@ -1,4 +1,4 @@
-package com.snapIT.c_objectOrientedProgramming.fundamentals.DataStructuresAndSorting.arrays;
+package com.snapIT.c_objectOrientedProgramming.fundamentals.dataStructuresAndSorting.arrays;
 
 public class Array {
     public static void main(String[] args) {

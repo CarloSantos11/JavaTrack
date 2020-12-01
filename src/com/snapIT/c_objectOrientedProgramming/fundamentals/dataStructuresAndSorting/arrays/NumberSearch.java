@@ -1,4 +1,4 @@
-package com.snapIT.c_objectOrientedProgramming.fundamentals.DataStructuresAndSorting.arrays;
+package com.snapIT.c_objectOrientedProgramming.fundamentals.dataStructuresAndSorting.arrays;
 
 import java.util.Scanner;
 

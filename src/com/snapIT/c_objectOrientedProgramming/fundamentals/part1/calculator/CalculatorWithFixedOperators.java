@@ -41,5 +41,5 @@ public class CalculatorWithFixedOperators {
 }
 
 
-// Refactor: it is rewriting your code after implementation with the intention of improving it for readability or
+// Refactor: is rewriting your code after implementation with the intention of improving it for readability or
 // efficiency/speed
