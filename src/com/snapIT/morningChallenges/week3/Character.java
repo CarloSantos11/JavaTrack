@@ -1,4 +1,4 @@
-package com.snapIT.morningChallenges.weekThree;
+package com.snapIT.morningChallenges.week3;
 
 import java.util.ArrayList;
 
