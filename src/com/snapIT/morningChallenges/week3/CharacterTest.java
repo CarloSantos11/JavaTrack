@@ -1,4 +1,4 @@
-package com.snapIT.morningChallenges.weekThree;
+package com.snapIT.morningChallenges.week3;
 
 public class CharacterTest {
     public static void main(String[] args) {

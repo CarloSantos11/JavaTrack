@@ -1,4 +1,4 @@
-package com.snapIT.morningChallenges.weekTwo;
+package com.snapIT.morningChallenges.week2;
 
 //1) Create a method called areaOfSquare(double side) that takes a length of a side as an argument.
 //Have the method return the area of the square given the side.(google the formula if you do not know it.)

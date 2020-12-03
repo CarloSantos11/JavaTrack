@@ -1,4 +1,4 @@
-package com.snapIT.morningChallenges.weekTwo;
+package com.snapIT.morningChallenges.week2;
 
 public class FizzBuzz {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package com.snapIT.morningChallenges.weekOne;
+package com.snapIT.morningChallenges.week1;
 
 import java.util.Scanner;
 

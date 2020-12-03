@@ -1,4 +1,4 @@
-package com.snapIT.morningChallenges.weekTwo;
+package com.snapIT.morningChallenges.week2;
 
 public class TestClass {
     public static void sayHello () {
