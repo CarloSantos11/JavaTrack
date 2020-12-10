@@ -1,11 +1,11 @@
-package com.snapIT.c_objectOrientedProgramming.fundamentals.dataStructuresAndSorting;
+package com.snapIT.c_objectOrientedProgramming.fundamentals.dataStructuresAndSorting.linkedlist;
 
 import java.util.Iterator;
 import java.util.LinkedList;
 import java.util.ListIterator;
 import java.util.Scanner;
 
-public class linkedList {
+public class PlacesToVisit {
     public static void main(String[] args) {
         LinkedList<String> placesToVisit = new LinkedList<String>();
 
