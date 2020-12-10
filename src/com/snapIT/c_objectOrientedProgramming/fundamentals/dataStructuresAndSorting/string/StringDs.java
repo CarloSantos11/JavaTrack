@@ -9,7 +9,7 @@ public class StringDs {
         char mychar = saying.charAt(6);
 
         int num = saying.length();
-        System.out.println("Characater at index 6 is " + mychar);
+        System.out.println("Character at index 6 is " + mychar);
         System.out.println(num);
 
         char[] chars = new char [saying.length()]; // initializing a char array with the size of saying variable
