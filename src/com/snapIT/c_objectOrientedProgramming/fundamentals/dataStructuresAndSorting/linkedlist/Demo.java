@@ -17,5 +17,16 @@ public class Demo {
         while (i.hasNext()) {
             System.out.println("Must complete: " + i.next());
         }
+
+        todo.clear();
+        todo.add("Start a business");
+
+        i = todo.iterator();
+
+        while (i.hasNext()) {
+            System.out.println("Must complete: " + i.next());
+        }
     }
 }
+
+
