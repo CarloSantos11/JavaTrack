@@ -101,6 +101,7 @@ public class Main {
                     }
                     break;
                 case 3:
+                    System.out.println("test test");
                     break;
                 case 4:
                     break;
