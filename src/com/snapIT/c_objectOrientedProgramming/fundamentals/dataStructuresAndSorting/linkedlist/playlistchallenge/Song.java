@@ -19,7 +19,7 @@ public class Song {
     // So we override the toString method which is implicitly called when we use System.out.
     public String toString() {
         return "Title: " + this.title + "\n" + "Duration: " + this.duration +
-                "\n*****************************";
+                "\n";
     }
 
 }
