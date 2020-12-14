@@ -43,7 +43,7 @@ public class Theatre {
 
     // For testing
     public void getSeats(){
-        for(Seats seat : seats) {
+        for(Seat seat : seats) {
             System.out.println(seat.getSeatNumber());
         }
     }
