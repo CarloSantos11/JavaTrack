@@ -25,20 +25,49 @@ public class Theatre {
     }
 
     public boolean reserveSeat(String seatNumber) {
-        Seat requestedSeat = null;
-        for (Seat seat : seats) {
-            if(seat.getSeatNumber().equals(seatNumber)) {
-                requestedSeat = seat;
-                break;
+        int low = 0;
+        int high = seats.size()-1;
+
+        while (low <= high) {
+            System.out.print(".");
+            int mid = (low + high) / 2;
+            Seat midVal = seats.get(mid);
+            int cmp = midVal.getSeatNumber().compareTo(seatNumber);
+
+            if (cmp < 0) {
+                low = mid + 1;
+            } else if (cmp > 0) {
+                high = mid - 1;
+            } else {
+                return seats.get(mid).reserve();
             }
         }
-
-        if(requestedSeat == null) {
-            System.out.println("There is no seat " + seatNumber);
-            return false;
-        }
-
-        return requestedSeat.reserve();
+        System.out.println("There is no seat " + seatNumber);
+        return false;
+//        Seat requestedSeat = new Seat(seatNumber);
+//        int foundSeat = Collections.binarySearch(seats, requestedSeat, null);
+//
+//        if(foundSeat >= 0) {
+//            return seats.get(foundSeat).reserve();
+//        } else {
+//            System.out.println("There is no seat" + seatNumber);
+//            return false;
+//        }
+//        Seat requestedSeat = null;
+//        for (Seat seat : seats) {
+//            System.out.print(".");
+//            if (seat.getSeatNumber().equals(seatNumber)) {
+//                requestedSeat = seat;
+//                break;
+//            }
+//        }
+//
+//        if (requestedSeat == null) {
+//            System.out.println("There is no seat " + seatNumber);
+//            return false;
+//        }
+//        // Code above checks to see if the seat is present in the theatre
+//        return requestedSeat.reserve(); // Has are seat already been reserved
     }
 
     // For testing
@@ -48,7 +77,7 @@ public class Theatre {
         }
     }
 
-    private class Seat {
+    private class Seat implements Comparable<Seat> {
         private final String seatNumber;
         private boolean reserved = false;
 
@@ -78,6 +107,11 @@ public class Theatre {
 
         public String getSeatNumber() {
             return seatNumber;
+        }
+
+        @Override
+        public int compareTo(Seat seat) {
+            return this.seatNumber.compareToIgnoreCase(seat.getSeatNumber());
         }
     }
 }
