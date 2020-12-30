@@ -1,6 +1,10 @@
 package com.snapIT.c_objectOrientedProgramming.fundamentals.dataStructuresAndSorting.streamsAndReaders;
 
-import java.io.*;
+import java.io.BufferedReader;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.io.IOException;
+import java.util.Arrays;
 
 public class ReadCSVFile {
     public static void main(String[] args) throws FileNotFoundException {
@@ -17,7 +21,9 @@ public class ReadCSVFile {
                     continue;
                 }
                 String[] split = line.split(",");
-                System.out.printf("%d - %s\n", lineCounter, split[1]);
+                System.out.print(Arrays.toString(split));
+//                System.out.println(split[0]);
+//                System.out.printf("%d - %s\n", lineCounter, split[1]);
             }
         } catch (IOException e) {
             e.printStackTrace();

@@ -1,4 +1,4 @@
-package com.snapIT.consoleGame;
+package com.snapIT.z_consoleGame;
 
 
 // Name

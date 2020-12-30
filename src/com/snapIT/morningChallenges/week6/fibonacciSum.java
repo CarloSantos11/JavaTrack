@@ -19,23 +19,29 @@ package com.snapIT.morningChallenges.week6;
 
 public class fibonacciSum {
     public static void main(String[] args) {
-        fibonnacciSum();
+
+        System.out.println(fibonnacciSum(4000000));
     }
 
-    public static double fibonnacciSum() {
+    public static double fibonnacciSum(double upTo) {
 
         int firstPrevious = 1;
         int nextPrevious = 0;
         int fiboNumber = firstPrevious + nextPrevious;
+        int sum = 0;
 
-        for(int i = 0; i < 11; i++ ) {
-            System.out.println( fiboNumber);
+        for(int i = 0; fiboNumber <= upTo; i++ ) {
+//            System.out.println( fiboNumber);
             nextPrevious = firstPrevious;
             firstPrevious = fiboNumber;
             fiboNumber = firstPrevious + nextPrevious;
+
+            if(fiboNumber % 2 == 0) {
+                sum += fiboNumber;
+            }
         }
 
-        return fiboNumber;
+        return sum;
     }
 
 }

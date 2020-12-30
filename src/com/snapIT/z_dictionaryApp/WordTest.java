@@ -1,4 +1,4 @@
-package com.snapIT.dictionaryApp;
+package com.snapIT.z_dictionaryApp;
 
 //        11.18.20
 //

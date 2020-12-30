@@ -1,4 +1,4 @@
-package com.snapIT.c_objectOrientedProgramming.fundamentals.interfaces;
+package com.snapIT.c_objectOrientedProgramming.polymorphism.interfaces;
 
 public class Engineer implements PersonBehavior{
     @Override
